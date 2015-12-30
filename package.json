@@ -1,0 +1,23 @@
+{
+  "name": "timestamp-service",
+  "version": "1.0.0",
+  "description": "A simple API micro-service to parse natural and unix dates",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmdaniels/timestamp-service.git"
+  },
+  "author": "cmdaniels",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmdaniels/timestamp-service/issues"
+  },
+  "homepage": "https://github.com/cmdaniels/timestamp-service#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "serve-favicon": "^2.3.0"
+  }
+}
