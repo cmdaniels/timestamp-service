@@ -5,10 +5,20 @@
     <meta charset="utf-8">
     <title>Timestamp Service</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      code {
+        font-size: 28px;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
       <h1>API Timestamp Service</h1>
+      <h2>Example usage:</h2>
+      <code>GET /December%2030,%202015</code><br>
+      <code>GET /1451433600</code>
+      <h2>Example output:</h2>
+      <code>{"unix": 1451433600, "natural": "December 30, 2015"}</code>
     </div>
   </body>
 </html>
