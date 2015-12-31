@@ -5,6 +5,7 @@ var path = require('path');
 
 // Initialize Express App
 var app = express();
+var port = process.env.PORT || 8080;
 
 // Middleware
 app.use(favicon(__dirname + '/favicon.ico'));
@@ -47,5 +48,5 @@ app.get('/:date', function(req, res) {
 
 
 // Server initialization
-app.listen(9000);
-console.log('Listening on port 9000');
+app.listen(port);
+console.log('Listening on port ' + port);
